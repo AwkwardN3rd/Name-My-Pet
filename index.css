@@ -1,0 +1,144 @@
+/* ---------------------------All Bodys------------------------- */
+body {
+  background-color: #4C5752;
+  color: white;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* ---------------------------Specific Page Bodys------------------------- */
+#signUpPage {
+  background-image: url("Images/catndog.jpg");
+}
+
+#homePage {
+  background-image: url("Images/victor.jpg");
+}
+
+#loginPage {
+  background-image: url("Images/tran.jpg");
+}
+/* ---------------------------All Mains------------------------- */
+main {
+  background-color: rgba(76, 87, 82, 0.7);
+  margin: 10rem auto;
+  max-width: 400px;
+  padding: 20px;
+}
+/* ---------------------------Specific Mains------------------------- */
+#homeMain {
+  margin: 5rem auto;
+}
+/* --------------------------- H1 and P tags------------------------- */
+h1 {
+  text-align: center;
+  border-bottom: #6A3033 2px solid;
+  padding-bottom: 3px;
+}
+p {
+  font-size: 18px;
+  margin: 0;
+  padding: 5px;
+  margin-right:10px;
+}
+/* ---------------------------Name Generater Container------------------------- */
+/* ---------------------------Main Container------------------------- */
+#nameContainer {
+  border: #6A3033 2px solid;
+  margin: 2rem auto 0 auto;
+  min-height:229px;
+}
+#nameList {
+  text-align: center;
+}
+/* ---------------------------Heart Icon------------------------- */
+#heartIcon {
+  color: #6A3033;
+}
+#heartIcon:hover {
+  color: blue;
+}
+/* ---------------------------Generate Button------------------------- */
+#generateButton {
+  margin-top: 2rem;
+}
+/* ---------------------------Favourite Container------------------------- */
+/* ---------------------------Main Contianer------------------------- */
+#navbar {
+  background-color: rgba(76, 87, 82, 0.7);
+  margin: 1rem auto;
+  width: 400px;
+  height: 600px;
+  padding: 20px;
+}
+#favList {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+/* ---------------------------Delete Button------------------------- */
+#deleteIcon {
+  color: #6A3033;
+}
+#deleteIcon:hover{
+  color: blue;
+}
+/* ---------------------------Buttons, BootStrap and Extras------------------------- */
+.text-muted {
+  color: white!important;
+}
+.btn-outline-secondary {
+  margin-top: 5px;
+  color: white;
+  border-color: white;
+}
+#backButton, #backButton2 {
+  color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #979da3;
+    border-color: #979da3;
+}
+/********************************************************************************
+*
+*     media queries
+*
+*********************************************************************************/
+
+@media only screen and (min-width: 900px) {
+  #wrapper{
+    position:relative;
+  }
+  #homeMain{
+    position:absolute;
+    left:10%;
+    min-width: 400px;
+  }
+  h1{
+    font-size:33px;
+  }
+  #navbar{
+    position:absolute;
+    right:0;
+    top:0;
+    margin:0;
+    height:100vh;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  #homeMain{
+    left: 20%;
+    width:500px;
+  }
+  #backButton{
+    color:white;
+    border-color: white;
+  }
+  #backButton2{
+    color:black;
+    border-color:black;
+  }
+}
